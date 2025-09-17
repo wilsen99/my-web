@@ -1,0 +1,80 @@
+.navigation {
+    display: flex;
+    justify-content: right;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.navigation>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navigation>li>a:hover {
+    border-radius: 15px;
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+.navigation > li > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.active {
+    background-color: rgb(20, 20, 20);
+    color:white;
+    padding: 15px;
+}
+
+.active:hover {
+    color: white !important;
+}
+
+.navigation > li > img:hover {
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    transition: all .3s ease-in-out;
+}
+
+body {
+    font-family: comic sans ms, cursive, sans-serif;
+    background: url('gambar/pa.jpg');
+    background-size: cover;
+}
+
+.firstname {
+    color:white;
+    font-weight: 700;
+}
+h1, h2{
+    text-align: center;
+}
+img {
+    display: block;
+    margin: 10px auto;
+    width: 220px;
+    height: 310px;
+    object-fit:cover;
+}
+
+table {
+    margin: 20px auto;
+    background: #141414d8;
+    border-radius: 10px;
+    box-shadow: 0 4px 9px #070606;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 16px;
+    color: #fffbfb;
+}
+
